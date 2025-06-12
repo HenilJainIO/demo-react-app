@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Settings, Activity, Database, Thermometer, Gauge, RefreshCw } from 'lucide-react'
 import { useApi } from '../contexts/ApiContext'
-import { DeviceDetail, DeviceMetadata } from '../../connector-userid-ts'
+import { DeviceDetail, DeviceMetadata } from 'connector-userid-ts'
 import SettingsModal from './SettingsModal'
 import DeviceDataTable from './DeviceDataTable'
 import LoadingSpinner from './LoadingSpinner'
